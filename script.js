@@ -1,3 +1,8 @@
+$(window).load(function() {
+  // Animate loader off screen
+  $(".loader").fadeOut("slow");;
+});
+
 const imgContainer = document.getElementById("img-container");
 const loader = document.getElementById("loader");
 
@@ -54,3 +59,4 @@ window.addEventListener("scroll", () => {
 });
 
 getPhotos();
+
